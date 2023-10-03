@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <div class="folder active"><img class="img-folder" src="./img/folder.svg" alt="">Folder 1</div>
+    <div class="item" style="max-height: 100px; opacity: 1;">
+      <div class="file"><img class="img-file" src="./img/file.svg" alt="">Item 1.1</div>
+    </div>
+    <div class="folder active"><img class="img-folder" src="./img/folder.svg" alt="">Folder 2</div>
+    <div class="item" style="max-height: 200px; opacity: 1;">
+      <div class="subfolder active"><img class="img-folder" src="./img/folder.svg" alt="">Subfolder 2.1</div>
+      <div class="subitem" style="max-height: 100px; opacity: 1;">
+        <div class="file"><img class="img-file" src="./img/file.svg" alt="">File 2.1.1</div>
+        <div class="file"><img class="img-file" src="./img/file.svg" alt="">File 2.1.2</div>
+      </div>
+        <div class="file"><img class="img-file" src="./img/file.svg" alt="">File 2.2</div>
+    </div>
+    <div class="folder openclose"><img class="img-folder" src="./img/folder.svg" alt="">Folder 3</div>
+    <div class="item" style="pointer-events: none;">
+      <div class="subfolder"><img class="img-folder" src="./img/folder.svg" alt="">Subfolder 3.1</div>
+      <div class="subitem">
+        <div class="file"><img class="img-file" src="./img/file.svg" alt="">File 2.1.1</div>
+      </div>
+    </div>
+    <div class="file"><img class="img-file" src="./img/file.svg" alt="">File 4</div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
